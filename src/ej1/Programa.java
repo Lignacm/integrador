@@ -18,9 +18,9 @@ public class Programa {
         int larg = v1.getLargo();
         System.out.println("Alto " + alt + " Ancho " + anch + " largo " + larg);
         Persona p1 = new Persona("Marcelo", "Lignac", "21717647");
-        int nomb = p1.getNombre();
-        int apell = p1.getApellido();
-        int doc = p1.getNumeroDocumento();
-        System.out.println("Nombre " + nomb + " Apellido " + anch + " documento " + doc);
+        String nombre = p1.getNombre();
+        String apellido = p1.getApellido();
+        String documento = p1.getNumeroDocumento();
+        System.out.println("Nombre " + nombre + " Apellido " + apellido + " documento " + documento);
     }
 }
