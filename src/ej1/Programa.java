@@ -27,5 +27,6 @@ public class Programa {
         String apellido2 = p2.getApellido();
         String documento2 = p2.getNumeroDocumento();
         System.out.println("Nombre: " + nombre2 + " Apellido: " + apellido2 + " documento " + documento2);
+
     }
 }
